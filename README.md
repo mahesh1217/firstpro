@@ -23,3 +23,18 @@ Tech Stack:
 - Spring Boot
 - REST APIs
 - In-memory data / H2 / MySQL (depending on your setup)
+
+Build and run
+============
+If using Maven:
+
+mvn clean install
+mvn spring-boot:run
+
+Backend will start at:
+http://localhost:9090
+
+Test API:
+=========
+Open browser:
+http://localhost:9090/api/seats
